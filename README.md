@@ -7,12 +7,40 @@ This code is a hand gesture-based volume control system that uses a webcam to tr
 
 
 import cv2
+
+
+
+
 import mediapipe as mp
+
+
+
+
 import math
+
+
+
+
 import numpy as np
+
+
+
+
 from ctypes import cast, POINTER
+
+
+
+
 from comtypes import CLSCTX_ALL
+
+
+
+
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+
+
+
+
 from comtypes import GUID
 
 
